@@ -1,0 +1,33 @@
+button {
+  font-family: Monaco, monospace;
+  text-align: center;
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px;
+  margin:50px;
+  background-color: #000000;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 20px;
+  border: none;
+  transition: all 0.3s ease;
+  position: relative; /* add position:relative */
+}
+
+button span {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+}
+
+button.selected {
+  background-color: rgb(255, 255, 255);
+  color: #E4452B;
+}
+
+button:hover {
+  background-color: #dbdbdb;
+  color: #E4452B;
+}
